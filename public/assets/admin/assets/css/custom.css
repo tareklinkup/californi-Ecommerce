@@ -1,0 +1,56 @@
+.navbar-nav li a {
+    font-size: 18px !important;
+    letter-spacing: 1px !important;
+}
+@media (min-width: 576px) {
+    aside.left-panel {
+        width: 200px;
+        padding: 0 25px;
+    }
+}
+.navbar .navbar-nav li > a .menu-icon {
+    width: 30px;
+}
+.open aside.left-panel {
+    max-width: 70px;
+    width: 80px;
+    padding: 0 5px;
+}
+.open .navbar-nav li a {
+    font-size: 14px !important;
+    text-align: center;
+}
+.open .navbar-nav li a i {
+    text-align: center !important;
+}
+@media (min-width: 575.99px) {
+    aside.left-panel {
+        width: 200px;
+        padding: 0 20px;
+    }
+}
+.menutoggle {
+    margin: -2px 20px 0 -50px;
+}
+
+
+.img-wrapper {
+    position: relative; 
+    display: inline-block;
+    margin-right: 14px;
+    margin-bottom: 7px;
+}
+.img-del-btn {
+    position: absolute;
+    top: -14px;
+    right: -12px;
+    border-radius: 50%;
+    border: none;
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+.img-del-btn:hover {
+    background: black;
+    color: white;
+}
